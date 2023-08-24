@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculadora</title>
+</head>
+<body>
+  
+  <div class="conteudo">
+
+  <div class="calculator">
+    <strong><div class="display"></strong>
+      <input type="text" id="display" readonly>
+    </div>
+    <div class="buttons">
+      
+      <table>
+        <tr>
+      <td><button class="operator" id="clear" style="width: 106px;" onclick="clearDisplay()"><b>AC</b></button></td>
+      <td><button class="operator" onclick= "backspace('%')" > <i class="fas fa-backspace"><b>%</i></b></button></td>
+      <td><button class="operator" id="especial" onclick="appendToDisplay('/')"><i class="fas fa-divide"><b>/</b></i></button></td>
+    </tr>
+
+    <tr>
+    <td><button class="operator" onclick="appendToDisplay('7')"><b>7</b></button></td>
+    <td><button class="operator" onclick="appendToDisplay('8')"><b>8</b></button></td>
+    <td><button class="operator" onclick="appendToDisplay('9')"><b>9</b></button></td>
+    <td><button class="operator" id="especial" onclick="appendToDisplay('*')"><b>*</b></button></td>
+  </tr>
+
+  <tr>
+  <td><button class="operator" onclick="appendToDisplay('4')"><b>4</b></button></td>
+  <td><button class="operator" onclick="appendToDisplay('5')"><b>5</b></button></td>
+  <td><button class="operator" onclick="appendToDisplay('6')"><b>6</b></button></td>
+  <td><button class="operator" id="especial" onclick="appendToDisplay('-')"><b>-</b></button></td>
+    </tr>
+
+    <tr>
+    <td><button class="operator" onclick="appendToDisplay('1')"><b>1</b></button></td>
+    <td><button class="operator" onclick="appendToDisplay('2')"><b>2</b></button></td>
+    <td><button class="operator" onclick="appendToDisplay('3')"><b>3</b></button></td>
+    <td><button class="operator" id="igual" onclick="appendToDisplay('+')"><b>+</b></button></td>
+  </tr> 
+      
+  <tr>
+      <td><button class="operator" onclick="appendToDisplay('0')"><b>0</b></button></td>
+      <td><button class="operator" onclick="appendToDisplay('.')"><b>.</b></button></td>
+      <td><button class="operator" id="equals" style="width: 106px;" onclick="calculate()"><b>=</b></button></td>
+    </tr>
+
+    </table>
+    </div>
+  </div>
+<table>
+  <div class="history">
+    <h3>History</h3><br><br>
+    <ul id="history-list"></ul> 
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
