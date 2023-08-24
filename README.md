@@ -23,11 +23,11 @@ https://www.youtube.com/watch?v=g3xJhlxNPbw&t=2s
 </p>
 
 
- ### <div align="center"> [Clique aqui para acessar o Projeto](https://curriculo-stackx.netlify.app/)
+ ### <div align="center"> [Clique aqui para acessar o Projeto]()
    
    ***
    
-   <img src="./calculadora.mp4" align="center" height="500em" width="100%"> 
+   <img src="./calculadora.gif" align="center" height="500em" width="100%"> 
    
    ***
 
