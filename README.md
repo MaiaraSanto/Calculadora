@@ -23,9 +23,13 @@ https://www.youtube.com/watch?v=g3xJhlxNPbw&t=2s
 </p>
 
 
-<p> 
-     <img src="../img/calculadora.gif" align="center" height="500em" width="100%"> 
-</p>
+ ### <div align="center"> [Clique aqui para acessar o Projeto](https://curriculo-stackx.netlify.app/)
+   
+   ***
+   
+   <img src="./calculadora.mp4" align="center" height="500em" width="100%"> 
+   
+   ***
 
 
 
