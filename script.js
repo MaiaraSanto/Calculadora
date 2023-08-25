@@ -34,21 +34,31 @@ function calculate() {
   }
 }
 
+
 function updateHistory() {
   historyList.innerHTML = '';
 
   for (let entry of history) {
-    let div = document.createElement('div');
+    let row = document.createElement('tr');
+    let exprCell = document.createElement('td');
+    let resultCell = document.createElement('td'); 
+    let timeCell = document.createElement('td');
+
     let timestamp = new Date(entry.timestamp);
     let dayOfWeek = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'][timestamp.getDay()];
-    let month = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'][timestamp.getMonth()];
+    let month = ('0' + (timestamp.getMonth() + 1)).slice(-2); 
 
-    div.textContent = `[${entry.expression} = ${entry.result}] [${dayOfWeek}, ${timestamp.getDate()} / ${month} / ${timestamp.getFullYear()}, ${timestamp.toLocaleTimeString()}]` ;
-    div.onclick = () => {
+    exprCell.textContent = entry.expression;
+    resultCell.textContent = entry.result; 
+    timeCell.textContent = `${dayOfWeek}, ${timestamp.getDate()}/${month}/${timestamp.getFullYear()}, ${timestamp.toLocaleTimeString()}`;
+
+    row.appendChild(exprCell);
+    row.appendChild(resultCell); 
+    row.appendChild(timeCell);
+
+    row.onclick = () => {
       display.value = entry.expression;
     };
-    historyList.appendChild(div);
+    historyList.appendChild(row);
   }
 }
-
-
