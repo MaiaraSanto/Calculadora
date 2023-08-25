@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,15 +48,18 @@
       <td><button class="operator" onclick="appendToDisplay('.')"><b>.</b></button></td>
       <td><button class="operator" id="equals" style="width: 106px;" onclick="calculate()"><b>=</b></button></td>
     </tr>
-
     </table>
     </div>
   </div>
-<table>
-  <div class="history">
-    <h3>History</h3><br><br>
-    <ul id="history-list"></ul> 
-  </div>
+
+  <section class="history">
+    <h3>History</h3><br>
+    <div class="flex-container">
+      <h5>OPERAÇÃO</h5>
+      <h5>DATA</h5>
+    </div>
+    <div class="historico" id="history-list"></div>     
+  </section>
   <script src="script.js"></script>
 </body>
 </html>
