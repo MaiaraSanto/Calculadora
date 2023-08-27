@@ -137,9 +137,9 @@ table td {
 
 #history-list td {
   border: 1px solid #ddd;
-  padding: 10.4px;
+  padding: 5;
   text-align: center;
-  height: 2.5em;
+  height: 49px;
   border: 1px solid white;
   top: 100px;
 }
