@@ -53,7 +53,7 @@ A calculadora também possui um histórico com as quatro últimas operações re
    
    ***
    
-   <img src="./calc (2).gif" align="center" height="500em" width="100%"> 
+   <img src="./calc1.gif" align="center" height="500em" width="100%"> 
    
    ***
 
