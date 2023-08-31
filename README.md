@@ -57,6 +57,16 @@ A calculadora também possui um histórico com as quatro últimas operações re
    
    ***
 
+ <img src="./calc2.gif" align="center" height="500em" width="100%"> 
+ 
+  ***
+
+ <img src="./calc3.gif" align="center" height="500em" width="100%"> 
+ 
+  ***
+
+ <img src="./calc4.gif" align="center" height="500em" width="100%"> 
+
 
 
 
