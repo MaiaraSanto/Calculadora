@@ -56,15 +56,16 @@ A calculadora também possui um histórico com as quatro últimas operações re
    <img src="./calc1.gif" align="center" height="500em" width="100%"> 
    
    ***
-
+### Função onde salva ou baixa o Histórico
  <img src="./calc2.gif" align="center" height="500em" width="100%"> 
  
   ***
-
+### Função onde ao clicar no Histórico, ela volta como operando no visor
  <img src="./calc3.gif" align="center" height="500em" width="100%"> 
  
   ***
 
+### Botão de apagar, onde exlui do último até o primeiro número
  <img src="./calc4.gif" align="center" height="500em" width="100%"> 
 
 
