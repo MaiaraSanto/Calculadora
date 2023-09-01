@@ -201,19 +201,20 @@ table td {
 
 .center-button {
   display: inline-block;
-  margin-right: 10px; /* Espaçamento entre os botões */
+  margin-right: 1px; /* Espaçamento entre os botões */
 }
 
 .clear-button, .save-button {
-  padding: 5px 5px; /* Espaçamento interno do botão */
-  font-size: 16px; /* Tamanho da fonte do texto no botão */
+  padding: 0px 0px; /* Espaçamento interno do botão */
+  font-size: 15px; /* Tamanho da fonte do texto no botão */
   background-color: #1b7269;
   color: white;
   cursor: pointer;
   border-radius: 5px;
-  border: 1px solid white;
-  width: 159px;
-  height: 1.7em;
+  border: 1px solid black;
+  width: 162px;
+  height: 45px;
+  
 }
 
 .clear-button:hover, .save-button:hover {
@@ -221,16 +222,36 @@ table td {
 }
 
 .center-button{
-  padding: 9px;
+  padding: 3px;
   text-align: center;
   color:white; 
-   width: 176px;
-   height: 2.5em;
+   width: 176.3px;
+   height: 2.8em;
    background-color:#0C1A21;
    border-radius: 15px;
    border: 1px solid white;
    top: 400%;
+   margin-top: -10rem;
 }
+
+
+.icon {
+  max-width: 25px; /* Largura máxima do ícone */
+  max-height: 20px; /* Altura máxima do ícone */
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.icon1 {
+  max-width: 25px; /* Largura máxima do ícone */
+  max-height: 20px; /* Altura máxima do ícone */
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+
+
+
 
 
 
