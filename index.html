@@ -8,15 +8,14 @@
   <title>Calculadora</title>
 </head>
 <body>
-  
-  <div class="conteudo">
 
+  <div class="conteudo">
   <div class="calculator">
-    <strong><div class="display"></strong>
+    <div class="display">
       <input type="text" id="display" readonly>
     </div>
-    <div class="buttons">
-      
+    
+    <div class="buttons">  
       <table>
         <tr>
       <td><button class="operator" id="clear" style="width: 106px;" onclick="clearDisplay()"><b>AC</b></button></td>
@@ -61,11 +60,16 @@
       <h5>DATA</h5>
     </div>
     <div class="historico" id="history-list"></div><br>
+   
     <div class="center-button">
-      <button class="clear-button" id="clear-history-button" onclick="clearHistory()">Apagar Histórico</button>
+      <button class="clear-button" id="clear-history-button" onclick="clearHistory()">
+        <img src="../img/img.png" alt="img" class="icon"><br>Delete History
+</button>
     </div>
+    
+    
     <div class="center-button">
-      <button class="save-button" id="save-history-button" onclick="saveHistoryToFile()">Salvar Histórico</button>
+      <button class="save-button" id="save-history-button" onclick="saveHistoryToFile()"><img src="../img/save.png" alt="img" class="icon1"><br> Save History</button>
     </div>
 
   </div>
