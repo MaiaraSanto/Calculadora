@@ -149,7 +149,7 @@ table td {
 
 #history-list td {
   border: 1px solid #ddd;
-  padding: 12.2px;
+  padding: 9px;
   height: 49px;
   text-align: center;
   border: 1px solid white;
@@ -173,7 +173,7 @@ table td {
   padding: 10px;
   text-align: center;
   color:white; 
-   width: 379px;
+   width: 380px;
    height: 11.4em;
    background-color:#0C1A21;
    position: static;
