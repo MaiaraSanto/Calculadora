@@ -1,5 +1,6 @@
 
-﻿### Calculadora StackX
+## Calculadora StackX
+
 
 Projeto proposto pela StackX como desafio para o StackX Lab. Onde cada estudante deveria desenvolver uma calculadora e que ao lado exibisse um histórico contendo as últimas quatro operações realizadas.
 
@@ -67,6 +68,8 @@ A calculadora também possui um histórico com as quatro últimas operações re
 
 ### Botão de apagar, onde exlui do último até o primeiro número
  <img src="./calc4.gif" align="center" height="500em" width="100%"> 
+
+
 
 
 
