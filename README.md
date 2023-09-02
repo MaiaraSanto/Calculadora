@@ -57,7 +57,7 @@ A calculadora também possui um histórico com as quatro últimas operações re
    <img src="./calc1.gif" align="center" height="500em" width="100%"> 
    
    ***
-### Função onde salva ou baixa o Histórico
+### Função onde  baixa o Histórico
  <img src="./calc2.gif" align="center" height="500em" width="100%"> 
  
   ***
