@@ -50,7 +50,7 @@ A calculadora também possui um histórico com as quatro últimas operações re
 </p>
 
 
- ### <div align="center"> [Clique aqui para acessar o Projeto](https://calculadorastackx.netlify.app/)
+ ### <div align="center"> [Clique aqui para acessar o Projeto](https://calculadoramain.netlify.app/)
    
    ***
    
