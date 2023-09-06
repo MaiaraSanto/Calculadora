@@ -16,59 +16,40 @@
 
 /* Estilos para o corpo da página */
 body {
-
   background-image: url("./calc.gif");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-/* Limita a largura máxima de certos elementos */
-.max-width {
-  width: 100%;
-  max-width: 10px;
-  margin: 0 auto;
-  background-color: #fff;
+  margin: 0;
+  font-size: 16px;
 }
 
 /* Estilos para a calculadora */
 .calculator {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   border-radius: 15px;
   padding: 10px;
   background-color: #000807;
   border: 1.9px solid #dfdfdf;
   flex-direction: column;
   align-items: center;
-  margin-right: 20px;
+  margin: 20px;
   margin-top: 100px;
 }
 
 /* Estilos para a seção de histórico */
 .history {
-  width: 400px;
+  width: 400%;
+  max-width: 400px;
   border-radius: 15px;
-  padding: 10px;
+  padding: 23px;
   background-color: #1b7269;
   color: white;
   font-size: 19px;
   text-align: center;
   border: 1px solid white;
+  margin: 20px;
   margin-top: 100px;
-}
-
-/* Estilos responsivos para telas menores */
-@media (max-width: 600px) {
-  .conteudo {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .calculator,
-  .history {
-    width: 100px;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
 }
 
 /* Estilos para títulos h3 */
@@ -129,16 +110,6 @@ table td {
   background-color: #25968a;
 }
 
-/* Estilos para o botão "=" (equals) */
-#equals {
-  background-color: #1b7269;
-}
-
-/* Efeito de hover para o botão "=" (equals) */
-#equals:hover {
-  background-color: #25968a;
-}
-
 /* Estilos para o visor da calculadora */
 .display {
   height: 100px;
@@ -148,7 +119,7 @@ table td {
   word-wrap: break-word;
   border-bottom: 1px solid #25968a;
   width: 100%;
-
+ 
 }
 
 /* Estilos para o visor da calculadora com ID "display" */
@@ -160,7 +131,8 @@ table td {
   word-wrap: break-word;
   border-bottom: 1px solid #25968a;
   background: #1b7269;
-  width: 226px;
+  width: 100%;
+  margin-bottom: 226px;
 }
 
 /* Estilos para o hover das linhas na lista de histórico */
@@ -171,11 +143,10 @@ table td {
 
 /* Estilos para células na lista de histórico */
 #history-list td {
-  border: 1px solid #ddd;
+  border: 1px solid white;
   padding: 7.5px;
   height: 49px;
   text-align: left;
-  border: 1px solid white;
   top: 100px;
 }
 
@@ -200,13 +171,14 @@ table td {
   padding: 10px;
   text-align: center;
   color: white;
-  width: 380px;
-  height: 11.4em;
   background-color: #0C1A21;
-  position: static;
   border-radius: 15px;
   border: 1px solid white;
-  top: 400%;
+  max-height: 13.7rem;
+  max-width: 92rem ;
+  height: 900.4em;
+  overflow-y: auto;
+  margin-top: 1px;
 }
 
 .flex-container {
@@ -214,7 +186,6 @@ table td {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #ccc;
-
   margin-bottom: 5px;
 }
 
@@ -233,13 +204,12 @@ table td {
   padding: 3px;
   text-align: center;
   color: white;
-  width: 176.3px;
-  height: 2.8em;
+  width: 48%;
+  height: 3.4em;
   background-color: #0C1A21;
   border-radius: 15px;
   border: 1px solid white;
-  top: 400%;
-  margin-top: -10rem;
+  margin-top: 10px;
 }
 
 .clear-button,
@@ -253,9 +223,9 @@ table td {
   cursor: pointer;
   border-radius: 5px;
   border: 1px solid black;
-  width: 162px;
-  height: 45px;
-
+  width: 100%;
+  height: 55px;
+  margin-top: 0px;
 }
 
 .clear-button:hover,
@@ -264,16 +234,12 @@ table td {
 }
 
 /* Estilos para ícones nos botões */
-.icon {
-  max-width: 25px;
-  max-height: 20px;
-  border-radius: 3px;
-  border: 1px solid black;
-}
-
+.icon,
 .icon1 {
   max-width: 25px;
   max-height: 20px;
   border-radius: 3px;
   border: 1px solid black;
+  margin-top: -6px;
 }
+
