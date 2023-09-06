@@ -243,3 +243,31 @@ table td {
   margin-top: -6px;
 }
 
+/* Estilos responsivos para telas menores */
+@media (max-width: 600px) {
+  .conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calculator{
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+  }
+
+  
+  .history {
+    width: 100%;
+    max-width: 269px;
+    margin: 10px; /* Adicionei uma margem menor */
+  }
+
+  .historico {
+    margin-top: 0; /* Removi a margem superior */
+  }
+}
+
+
+
+
