@@ -2,7 +2,7 @@
 ## Calculadora StackX
 
 
-Projeto proposto pela StackX como desafio para o StackX Lab. Onde cada estudante deveria desenvolver uma calculadora e que ao lado exibisse um histórico contendo as últimas quatro operações realizadas.
+Projeto para desenvolver uma calculadora e que ao lado exibisse um histórico contendo as últimas quatro operações realizadas.
 
 
 ## Funcionalidades
