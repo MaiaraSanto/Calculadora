@@ -1,5 +1,5 @@
 
-## Calculadora StackX
+## Calculadora 
 
 
 Projeto para desenvolver uma calculadora e que ao lado exibisse um histórico contendo as últimas quatro operações realizadas.
